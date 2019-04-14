@@ -1,0 +1,232 @@
+<html>
+<head>
+<title>东西协作扶贫</title>
+<meta charset="utf-8">
+<style type="text/css">
+	body{
+		margin:0;
+		padding: 0;
+		background-color: #fff;
+		font-family:'微软雅黑';
+	}
+	.box{
+		/*无特殊图表的正文盒子*/
+		width: 800px;
+		margin: 0 auto;
+		color: #8c666f;
+		font-size: 18px;
+		font-family:'微软雅黑';
+	}
+	h2{
+		/*二级标题*/
+		color: #f8b62d;
+		line-height: 80px;
+		font-size: 22px;
+	}
+	/*h2{
+		二级标题
+		color: #000;
+		line-height: 25px;
+		font-size: 22px;
+		background-color: #f8b62d;
+		margin: 20px 0px;
+	}*/
+	h3{
+		/*图表标题*/
+		color: #b5b5b6;
+		font-size: 18px;
+		line-height: 40px;
+		/*text-indent: 2em;*/
+		text-align: center;
+		margin-top: 30px;
+	}
+	p{
+		text-indent: 2em;
+		line-height: 1.7em;
+		text-align: justify;
+	}
+	#Map p{text-indent:0;}
+	#news{
+		/*引入*/
+		width: 800px;
+	}
+	#Map{
+		/*互动图大盒子*/
+		width: 1000px;
+		margin: 0 auto;
+		color: #8c666f;
+		/*font-size: 20px;*/
+		/*font-family:'微软雅黑';*/
+	}
+	
+	#partThree{
+		/*轮换图*/
+		width: 900px;
+		margin: 0 auto;
+		color: #8c666f;
+		font-size: 18px;
+		/*font-family:'微软雅黑';*/
+	}
+	.pic{
+    	width: 800px;
+  }
+  	.tuzhu{
+  		/*图注*/
+  		color: #b5b5b6;
+  		font-size: 15px;
+  		text-indent: 0;
+  		text-align: right;
+  	}
+  	.zhushi{
+  		/*尾注*/
+  		color: #b5b5b6;
+  		font-size: 15px;
+  		text-indent: 0;
+  	}
+</style>
+<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div id="header" style="width: 100%;"> 
+	<img src="image/head.jpeg" style="width: 100%;">
+</div>
+
+
+<div id="news" class="box">
+	<!-- 引入 -->
+	<p style="height: 20px;"></p>
+	<p>回乡风格的院落整洁明亮，走进海国宝家的客厅，一眼就能看到习近平在视察闽宁镇原隆村时与他一家座谈的合影，这也使得老海成了村里实实在在的“明星户”。他的家，坐落在福建和宁夏牵手扶贫的起点——宁夏永宁县<strong>闽宁镇</strong>。</p>
+	<div style="width: 800px;margin: 30px auto 0px;"><img src="image/news.jpeg"></div>
+	<p class="tuzhu">摄影：杨霄霄（2017年8月27日）</p>
+	<p>1996年，这是改变很多“海国宝”命运的一年——一纸《关于组织经济较发达地区与经济欠发达地区开展扶贫协作的报告》，将东部发达地区和西部贫困地区紧紧联系在一起。</p>	
+	<div style="width: 800px;margin: 0 auto;"><h2>东西协作扶贫连连看，你的家乡参与其中了吗？</h2></div>
+</div>
+<div id="Map">
+		
+        <div id="trackmap">
+            <div class="img"><img src="image/land.png"></div>
+        </div>
+        <div class="info">
+            <p id="money">&nbsp;<span></span>  万元</p>
+            <p id="source">From&nbsp;&nbsp;<span></span></p>
+            <p id="target">To&nbsp;&nbsp;&nbsp;<span></span></p>
+            <div class="img"><img src="image/legend.png"></div>
+
+        </div>
+    </div>
+
+<div id="partOne" class="box">
+	<h2>“结对子”：先富带动后富</h2>
+	<p>“结对子”这个概念想必大家不陌生，通过分析合理配对，以达到取长补短，共同进步的目的。而东西协作就是扶贫领域里一种“结对子”的方式。</p>
+	<p>改革开放以来，“先富带动后富”的理念逐步让更多人摆脱了贫困。如今，广东、上海、北京等经济发达的东部省市，正在不断带动西部贫困地区的发展。</p>
+	<h3>2013年和2016年东部省市帮扶资金对比</h3>
+	<div id="bar1" style="width: 800px;height: 600px;margin-top: 10px;"></div>
+	<p class="tuzhu">数据来源：中国扶贫开发年鉴（2014、2017）</p>
+	<p>2013年，即“精准扶贫”思想提出的第一年，东部各省市平均提供帮扶资金1.18亿元。2016年这一数字增长了2.1倍。</p>
+	<h3>2013年和2016年西部各省（区、市）收到帮扶资金对比</h3>
+	<div id="bar2" style="width: 800px;height: 600px;margin-top: 10px;"></div>
+	<p class="tuzhu">*注：西藏、新疆作为特困片区，整体享受国家对口支援政策，所以未纳入上图。</br>数据来源：中国扶贫开发年鉴（2014、2017）</p>
+	<p>2016年，西部各省（区、市）平均收到帮扶资金2.76亿元，2013年这一数字只有1.1亿元。</p>
+	<p>据统计，2016年东部省市共向西部对口帮扶地区提供帮扶资金29.3亿元，动员社会力量捐助款物3.3亿元，其中广东省占40%，位列第一。而向对口帮扶地区派出教师、医生等专业技术人才最多的则是北京，其次是上海。</p>
+	
+	<h3>2016年西部各省（区、市）新增受帮扶地级市</h3>
+	<div class="box"><img src="image/changemap.jpg" style="width: 800px;"></div>
+	<p class="tuzhu">数据来源：中国扶贫开发年鉴（2014、2017）</p>
+	<p>随着“精准扶贫”思想的深化落实，东西部各省（区、市）在帮扶关系的规划上，也更加“具体”，帮扶政策直接落实到了地级市。2013年，只有贵州、甘肃、四川有直接针对地级市的帮扶政策。而到了2016年，这样的省份增至6个，有针对性的选择了贫困县集聚的地区。</p>
+	
+	<!-- 饼图 -->
+	<div style="width:840px;margin: 50px auto 0px;">
+		<div id="pie1" style="width: 420px;float: left;height: 420px;"></div>
+		<div id="pie2" style="width: 420px;float: right;height: 420px;"></div>
+	</div>
+	<p class="tuzhu">数据来源：中国扶贫开发年鉴（2014、2017）</p>
+	<p>2016年广西接受对口帮扶的两个地级市为百色市和河池市，这两个地级市辖区内有17个贫困县，占整个广西壮族自治区贫困县数量的51%。而河北省接受对口帮扶的三个地级市张家口市、保定市、承德市，辖区内共有25个贫困县，占河北省贫困县数量的55.6%。</p>
+
+
+</div>
+
+
+<div id="partThree">
+	<div style="width: 800px;margin: 0 auto;">
+		<h2>东西扶贫协作的亮点有哪些？</h2>
+		<p>这些扶贫数字背后，是各省市逐渐摸索出的一条以政府援助、新村建设、产业帮扶、医疗卫生帮扶、教育扶贫、社会扶贫等为主要内容的东西扶贫协作道路。</p>
+	</div>
+	<div id="imgChange" style="width:910px;margin: 0 auto;">  
+  		<div onclick="pre()" style="float:left;cursor:pointer;margin-right: 5px;"><img src="image/left.png" style="height: 466px; opacity: 0.6;"></div>    
+  		<div onclick="nex()" style="float:right;cursor:pointer;margin-left: 5px;"><img src="image/right.png" style="height: 466px; opacity: 0.6;"></div>
+
+  		<div style="width:800px;margin:0 auto;overflow:hidden"> 
+   		<!-- 这个最外围的容器div宽度为800px，每张图宽为800px，所以只显示1张，剩下的图超出容器隐藏起来 -->  
+  			<div class="imgs" style="width:1000000px;"> <!--这个div的作用是让所有的图片都排在同一水平上--> 
+			   <img src="image/pic1.jpeg" class="pic" />     
+			   <img src="image/pic2.jpeg" class="pic" />    
+			   <img src="image/pic3.jpeg" class="pic" />    
+			   <img src="image/pic4.png" class="pic" />    
+			   <img src="image/pic5.png" class="pic" />    
+			    
+ 			 </div>  
+ 			 <p class="tuzhu">*点击左右翻页按钮查看东西协作扶贫主要方式</br>数据来源：中国扶贫开发年鉴（2014、2017）</p>
+  		</div>
+
+ 	</div>
+
+</div>
+
+<div id="ending" class="box">
+	<h2>脱贫全员加速中</h2>
+	<p>移民农户住宅排列整齐，光伏蔬菜大棚连城一片，红树莓、葡萄种植基地生机勃勃，东西扶贫协作让闽宁镇原隆村这个曾经的“干沙滩”变成了“金沙滩”。</p>
+	<div><iframe frameborder="0" class="juxtapose" width="800px" height="490px" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=45eab02a-5e92-11e9-8106-0edaf8f81e27"></iframe></div>
+	<p class="tuzhu">*左右滑动滑块对比闽宁镇20多年来的变化</br>左图来自网络，右图摄影：杨霄霄（2017年8月27日）</p>
+	<p>23年间，来自东部发达地区的资金、技术、人才、理念源源不断地输入西部，像“闽宁模式”一样，为西部贫困地区发展注入活力。</p>
+	<p>过去6年里，中国农村贫困人口从9899万人减少到1660万人，如要按时完成2020年消除绝对贫困的目标，就意味着在未来的一段时间里，每天还需要有超过32000人脱贫。</p>
+	<p>这是目标，也是鞭策。</p>
+	<p style="height: 20px;"></p>
+</div>
+
+<div id="footer" class="box">
+	<hr style="height: 1px;width: 200px;border: none;border-top: 1px solid #8c666f;float: left;">
+	<p style="height: 20px;"></p>
+	<p class="zhushi">数据来源：中国扶贫开发年鉴（2014、2017）、国家统计局、公开资料整理</p>
+	<!-- <p class="zhushi">中国传媒大学新闻学院</p> -->
+	<p class="zhushi">策划与文案：杨霄霄 施博 霍麒如 刘浩川</p>
+	<p class="zhushi">数据清洗与分析：杨霄霄 施博 霍麒如 刘浩川</p>
+	<p class="zhushi">制图：刘浩川 霍麒如 熊玉兰</p>
+	<p class="zhushi">开发：崔雨晴 熊玉兰</p>
+	<p style="height: 100px;"></p>
+</div>
+
+
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="js/bar1.js"></script>
+<script type="text/javascript" src="js/bar2.js"></script>
+<script type="text/javascript" src="js/pie1.js"></script>
+<script type="text/javascript" src="js/pie2.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.1.0/d3.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/library/d3.v5.min.js"></script>
+<script src="js/library/d3-geo.min.js"></script>
+<script src="js/library/topojson.min.js"></script>
+<script src="js/library/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- 图片切换和自动播放 -->
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<script>
+var cot=0;//设置一个计数器，初始值为0；作用是用来监听点击切换的时候哪一个图片应该隐藏或者显示
+function nex(){  
+ if(cot<=3){    
+  $('.imgs img').eq(cot).animate({'margin-left':'-806px'},500);    
+  cot++;  
+ }
+}
+function pre(){  
+ if(cot>0){    
+  cot--;    
+  $('.imgs img').eq(cot).animate({'margin-left':'0'},500);  
+ }
+}
+</script>
+
+</body>
+</html>
